@@ -1,0 +1,23 @@
+{
+	"name": "Bujenda",
+
+	"version": "1.0",
+
+	"description": "Keep track of you day!",
+
+	"manifest_version": 2,
+
+	"incognito": "split", 
+
+	"chrome_url_overrides": {
+		"newtab": "date_and_schedule.html" 
+	},
+
+	"permissions": [ 
+		"activeTab" 
+	],
+
+	"icons": { 
+		"128": "thought_icon.png"
+	}
+}
